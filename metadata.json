@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "author": "Gareth Rushgrove",
   "summary": "Install and manage the Rocket container system",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "source": "https://github.com/garethr/garethr-rocket.git",
   "project_page": "https://github.com/garethr/garethr-rocket",
   "issues_url": "https://github.com/garethr/garethr-rocket/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04", "12.04" ]
+    }
+  ],
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
