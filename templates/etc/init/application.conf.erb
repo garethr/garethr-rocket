@@ -1,0 +1,14 @@
+description "Start and stop <$= @image %> under rocket"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+kill signal INT
+
+respawn
+respawn limit 10 5
+umask 022
+
+console none
+
+exec rkt run <%= @image  %>

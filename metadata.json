@@ -1,0 +1,20 @@
+{
+  "name": "garethr-rocket",
+  "version": "0.1.0",
+  "author": "Gareth Rushgrove",
+  "summary": "Install and manage the Rocket container system",
+  "license": "Apache 2.0",
+  "source": "https://github.com/garethr/garethr-rocket.git",
+  "project_page": "https://github.com/garethr/garethr-rocket",
+  "issues_url": "https://github.com/garethr/garethr-rocket/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 4.5.0"
+    },
+    {
+      "name": "camptpcamp-archive",
+      "version_requirement": ">= 0.3.2"
+    }
+  ]
+}
