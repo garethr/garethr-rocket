@@ -1,6 +1,8 @@
 This Puppet module installs and manages the
 [Rocket](https://github.com/coreos/rocket) container runtime.
 
+[![Puppet
+Forge](http://img.shields.io/puppetforge/v/garethr/rocket.svg)](https://forge.puppetlabs.com/garethr/rocket)
 [![Build
 Status](https://secure.travis-ci.org/garethr/garethr-rocket.png)](http://travis-ci.org/garethr/garethr-rocket)
 
